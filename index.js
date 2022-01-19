@@ -24,7 +24,7 @@ app.use(requestTime);
 app.set('view engine', 'ejs')
 
 app.get("/", function(req, res) {
-    const tanggal = "Selamat Membaca Manga</br>" + "<p><small>Rquest at:" + date + "</small>";
+    const tanggal = "Hai OPLovers Selamat Membaca Episode Terbaru ONE PIECE!!! </br>" + "<p><small>Rquest at:" + date + "</small>";
     res.send(tanggal);
 });
 app.use(mangaRouter)
